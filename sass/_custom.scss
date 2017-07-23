@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.container{
+  width: 100%;
+  max-width: 1300px;
+  text-align: center;
+  h1{
+    color: #5e870f;
+    font-size: 70px;
+    padding-top: 100px;
+  }
+  p{
+    font-size: 25px;
+    padding-bottom: 100px;
+  }
+}
+.navbar{
+  background-color: #000;
+  border: 0;border-radius: 0;border-width: 0;
+  padding: 21px 0 14px 0;
+  .container{
+    .container-fluid{
+      .collapse{
+        .nav{
+          .dropdown{
+            .dropdown-menu{
+                padding: 0;
+
+              li{
+                margin-left: 0;
+                margin-top: 1px;
+              }
+              #special{
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  a{
+    color: #fff;
+  }
+  .navbar-right{
+    li{
+      border: solid 2px #5e870f;
+      margin-top: 0px;
+      margin-left: 30px;
+      padding: 10px 25px 10px 25px;
+      a{
+        padding: 0;margin: 0;
+        text-decoration: none;
+        font-weight:  bolder;
+        font-size: 14px;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+    }
+    li:hover{
+      background-color: #5e870f;
+    }
+  }
+}
+
+.container{
+  .row{
+    .col-md-7{
+      margin-top: 25px;
+      background-color: #fff;
+      height: 1000px;
+      border: solid 1px #b4b4b4;
+      h1{
+        padding: 0;margin: 0;
+        position: relative;
+        font-size: 50px;color: #000;
+        top: -25px;
+        background-color: #fff;
+      }
+    }
+    .col-md-4{
+      background-color: #fff;
+      height: 1000px;
+      #widget2{
+        margin-top: 100px;
+      }
+      .widget{
+        margin-top: 30px;
+        //height: 200px;
+        background-color: #fff;
+        border: solid 1px #b4b4b4;
+        p{
+          padding-bottom: 35px;
+          font-size: 17px;
+          margin: 0 20px 0 20px;
+        }
+        .heading{
+          position: relative;
+          top: -30px;
+          width: 300px;
+          margin: 0 auto;
+          h3{
+            letter-spacing: 6px;
+            background-color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
